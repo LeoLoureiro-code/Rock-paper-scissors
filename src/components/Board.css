@@ -1,0 +1,9 @@
+.board{
+    width: 700px;
+    height: 145px;
+    display: flex;
+    margin: 0 auto;
+    border: solid 3px hsl(217, 16%, 45%);
+    border-radius: 15px;
+    margin-top: 3rem;
+}

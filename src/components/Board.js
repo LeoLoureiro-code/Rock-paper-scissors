@@ -1,14 +1,14 @@
 import './Board.css'
 
-const Board = () =>{
+const Board = (props) =>{
     return(
-        <div>
-            <div className="title-div">
+        <div className = "board">
+            <div className = "">
                 <p>Rock</p>
                 <p>Paper</p>
                 <p>Scissors</p>
             </div>
-            <div className="Score">
+            <div>
                 <p>Score</p>
                 <p>0</p>
             </div>
